@@ -1,7 +1,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
-let proxyIPs = ['101.50.0.114:8443'];
+let proxyIPs = ['45.60.186.91:587'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
 
